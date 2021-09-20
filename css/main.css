@@ -143,6 +143,10 @@ main > section:first-child {
     position: relative;
 }
 
+main > section:first-child .txt-b-small {
+    color: #ffffff;
+}
+
 main > section > .banner {
     height: 440px;
     background: url('../img/banner.jpg') no-repeat center #eee;
