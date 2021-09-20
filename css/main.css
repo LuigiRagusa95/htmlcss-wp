@@ -212,3 +212,18 @@ main section > .content-colums > .col:nth-child(2) {
     font-weight: 500;
     line-height: 2rem;
 }
+
+/*   ---------- FOOTER ----------   */
+footer {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+footer > p {
+    width: 100%;
+    color: #999999;
+    text-align: center;
+    line-height: 3em;
+    display: inline-block;
+    vertical-align: middle;
+}
