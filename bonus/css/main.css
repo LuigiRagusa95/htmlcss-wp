@@ -168,6 +168,10 @@ img {
     overflow: hidden;
 }
 
+.tac {
+    text-align: center;
+}
+
 .img-overlay::before {
     top: 0;
     z-index: 0;
