@@ -29,7 +29,7 @@ ol {
     max-width: 1170px;
 }
 
-.clearfix {
+.clearfix::after {
     clear: both;
     content: '';
     display: table;

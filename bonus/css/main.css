@@ -16,9 +16,119 @@ a {
     text-decoration: none;
 }
 
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* UTILITIES */
 .container {
     width: 80%;
     margin: 0 auto;
     max-width: 1200px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-gray-body {
+    color: #999999;
+}
+
+.text-gray-heading {
+    color: #1f1f1f;
+}
+
+.text-small {
+    font-size: 14px;
+}
+
+.text-large {
+    font-size: 30px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-8 {
+    padding: 8px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.px-8 {
+    padding: 0 8px;
+}
+
+.px-16 {
+    padding: 0 16px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+/* HEADER */
+header > figure {
+    width: 160px;
+}
+
+header > figure::before {
+    width: 2px;
+    right: -12%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    background-color: #eee;
+}
+
+header > nav li:last-child {
+    margin-right: 0;
+}
+
+header > nav li > a:hover {
+    color: #1f1f1f;
 }
