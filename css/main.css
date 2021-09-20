@@ -7,5 +7,81 @@
 }
 
 body {
+    color: #1f1f1f;
     font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* UTILITIES */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.clearfix {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/*   ---------- HEADER ----------   */
+
+/*   | */
+/*   |_____ BRAND _____   */
+
+header > .brand {
+    width: 160px;
+    display: block;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+header > .brand::before {
+    width: 2px;
+    content: '';
+    right: -12%;
+    height: 90%;
+    position: absolute;
+    background: #e5e5e5;
+}
+
+header > .brand img {
+    width: 160px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*   | */
+/*   |_____ NAV _____   */
+nav {
+    margin-bottom: 32px;
+}
+
+nav .menu > li {
+    list-style: none;
+    line-height: 24px;
+    display: inline-block;
+}
+
+nav .menu > li {
+    margin-right: 10px;
+}
+
+nav .menu > li:last-child {
+    margin-right: 0;
+}
+
+nav .menu > li > a {
+    font-size: 16px;
+    color: #575757;
+    text-transform: uppercase;
+}
+
+nav .menu > li > a:hover {
+    color: #1f1f1f;
+    text-decoration: underline;
 }
